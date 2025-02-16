@@ -8,7 +8,7 @@ var SCALENE = 'Scalene triangle';
  * Given the three sides of a triangle it calculates the type of the
  * triangle.
  */
-function getTriangleType(lengthA, lengthB, lengthC) { // eslint-disable-line no-unused-vars
+function getTriangleType(lengthA, lengthB, lengthC) {
   var type = '';
   // In Javascript isNaN returns true if the argument is Not a Number (NaN)
   if ( isNaN(lengthA) || isNaN(lengthB) || isNaN(lengthC) ) { //Inputs are not numbers
